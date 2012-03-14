@@ -11,7 +11,7 @@
     "node": "~0.6.8"
   },
   "dependencies": {},
-  "devDependencies": {'mocha'},
+  "devDependencies": {},
   "optionalDependencies": {},
   "homepage": "https://github.com/santosh79/traffic_cop_client",
   "main": "./lib/traffic_cop.js"

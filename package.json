@@ -2,7 +2,7 @@
   "author": "Santosh Kumar <santosh79@gmail.com> (https://github.com/santosh79)",
   "name": "traffic_cop_client",
   "description": "This is the Javascript Client for TrafficCop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git@github.com:santosh79/traffic_cop_client.git"

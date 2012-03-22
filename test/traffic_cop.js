@@ -17,7 +17,7 @@ describe("Traffic Cop", function() {
 
   describe("#publishing and subscribing", function() {
     describe("with one publisher and one subscriber", function() {
-      var sub = trafficCop.createClient('192.168.1.227'), pub = trafficCop.createClient('192.168.1.227');
+      var sub = trafficCop.createClient('127.0.0.1'), pub = trafficCop.createClient('127.0.0.1');
       it("the subscriber gets messages sent on a channel", function(done) {
         sub.subscribe("channel_uno", "channel_dos");
         var contents = fs.readFileSync('./test/sample.jpg');
